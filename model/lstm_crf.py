@@ -153,6 +153,8 @@ class LSTM_CRF(object):
         )
 
         for epoch in range(self.n_epochs):
+            train_all_loss = 0.0
+
             print("-----------Now we begin the %dth epoch-----------" % (epoch))
             for iter in range(iterations):
                 sen_batch, labels_batch, seq_len_batch = self.sess.run(next_iterator)
@@ -168,7 +170,9 @@ class LSTM_CRF(object):
                     self.dropout_keep_prob: 0.5
                 }
 
-                _, loss_train, step_num_ = self.sess.run([self.train_op, self.loss,  self.global_step], feed_dict=f_dict)
+                _, train_loss, step_num_ = self.sess.run([self.train_op, self.loss,  self.global_step], feed_dict=f_dict)
+                train_all_loss = train_all_loss + train_loss
+
 
     def test(self):
         return
