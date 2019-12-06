@@ -8,23 +8,32 @@ lap14_test_path = 'lap14_test_path'
 rest15_test_path = 'rest15_test_path'
 rest16_test_path = 'lap_test_path'
 
+rest14_emb_path = 'rest14_emb_path'
+lap14_emb_path = 'lap14_emb_path'
+rest15_emb_path = 'rest15_emb_path'
+rest16_emb_path = 'rest16_emb_path'
+
 
 rest14_path = {
     rest14_train_path: r'D:\NLP程序相关\MyModel2\data\rest14\Aspect_train.txt',
-    rest14_test_path: r'D:\NLP程序相关\MyModel2\data\rest14\Aspect_test.txt'
+    rest14_test_path: r'D:\NLP程序相关\MyModel2\data\rest14\Aspect_test.txt',
+    rest14_emb_path: r'D:\NLP程序相关\MyModel2\data\rest14\rest14.npz'
 }
 
 lap14_path = {
     lap14_train_path: r'D:\NLP程序相关\MyModel2\data\laptop14\Aspect_train.txt',
-    lap14_test_path: r'D:\NLP程序相关\MyModel2\data\laptop14\Aspect_test.txt'
+    lap14_test_path: r'D:\NLP程序相关\MyModel2\data\laptop14\Aspect_test.txt',
+    lap14_emb_path: r'D:\NLP程序相关\MyModel2\data\laptop14\laptop14.npz'
 }
 
 rest15_path = {
     rest15_train_path: r'D:\NLP程序相关\MyModel2\data\rest15\Aspect_train.txt',
-    rest15_test_path: r'D:\NLP程序相关\MyModel2\data\rest15\Aspect_test.txt'
+    rest15_test_path: r'D:\NLP程序相关\MyModel2\data\rest15\Aspect_test.txt',
+    rest15_emb_path: r'D:\NLP程序相关\MyModel2\data\rest15\rest15.npz'
 }
 
 rest16_path = {
     rest16_train_path: r'D:\NLP程序相关\MyModel2\data\rest16\Aspect_train.txt',
-    rest16_test_path: r'D:\NLP程序相关\MyModel2\data\rest16\Aspect_test.txt'
+    rest16_test_path: r'D:\NLP程序相关\MyModel2\data\rest16\Aspect_test.txt',
+    rest16_emb_path: r'D:\NLP程序相关\MyModel2\data\rest16\rest16.npz'
 }
